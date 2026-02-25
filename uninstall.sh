@@ -137,7 +137,7 @@ if [[ "$should_purge_mesh_services" == true ]]; then
     purge_mesh_services
 fi
 
-if [[ "$should_purge_integrations" == true ]]; then
+if [[ "$should_purge_integration_services" == true ]]; then
     purge_integration_services
 fi
 
